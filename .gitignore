@@ -12,3 +12,6 @@
 /TlsTest/TlsClientNetFramework/obj/Debug
 /TlsTest/TlsServer/obj
 /TlsTest/TlsClient
+/.vs
+*.vsidx
+*.vsidx

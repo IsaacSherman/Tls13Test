@@ -11,4 +11,13 @@
     <PackageReference Include="BouncyCastle.NetCoreSdk" Version="1.9.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="certificate.pem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="privatekey.pem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
