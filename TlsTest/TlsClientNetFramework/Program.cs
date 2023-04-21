@@ -60,7 +60,7 @@ namespace TlsTest
 			TcpClient client = new TcpClient(ip, port);
 
 			Stream = new SslStream(client.GetStream(), true,UserCertificateValidationCallback);
-			Ssl.AuthenticateAsClient(ip, null,  SslProtocols.Tls12, false);
+			Ssl.AuthenticateAsClient(ip, null,  SslProtocols.Tls13, false);
 		}
 
 		private bool UserCertificateValidationCallback(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslpolicyerrors)
