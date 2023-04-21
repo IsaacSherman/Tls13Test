@@ -14,7 +14,4 @@
 /TlsTest/TlsClient
 /.vs
 *.vsidx
-*.vsidx
-*.vsidx
-*.vsidx
-.vs/TlsTest/v17/.suo
+.vs/TlsTest/DesignTimeBuild/.dtbcache.v2
