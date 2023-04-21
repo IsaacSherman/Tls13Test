@@ -36,12 +36,12 @@ namespace TlsTest
 			{
 				while (true)
 				{
+					Console.Write("Type something:");
 					string input = Console.ReadLine()??"Nothing";
 					Util.WriteUint(client.Stream, (uint)input.Length);
 					client.Stream.Write(Encoding.ASCII.GetBytes(input),0, input.Length);
 					uint chars = Util.ReadUint(client.Stream);
 					Console.WriteLine($"Chars received: {chars}");
-					Thread.Sleep(1000);
 				}
 			}
 			catch (Exception ex)
