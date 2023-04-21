@@ -15,3 +15,4 @@
 /.vs
 *.vsidx
 .vs/TlsTest/DesignTimeBuild/.dtbcache.v2
+/TlsTest/TlsServer/bin/Debug/net6.0
