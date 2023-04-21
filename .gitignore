@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TlsTest/bin/Debug/net6.0
+/TlsTest/.vs
+/TlsTest/Common
+/TlsTest/obj
+/TlsTest/TlsClient/bin/Debug/net6.0
+/TlsTest/TlsClient/obj
+/TlsTest/TlsClientNetFramework/bin/Debug
+/TlsTest/TlsClientNetFramework/obj/Debug
+/TlsTest/TlsServer/obj
+/TlsTest/TlsClient
