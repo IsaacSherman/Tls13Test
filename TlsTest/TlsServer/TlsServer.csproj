@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BouncyCastle.NetCoreSdk" Version="1.9.7" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="certificate.pem">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

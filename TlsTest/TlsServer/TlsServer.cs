@@ -3,13 +3,7 @@ using System.Net.Security;
 using System.Net.Sockets;
 using System.Security.Authentication;
 using System.Security.Cryptography.X509Certificates;
-using Org.BouncyCastle.Asn1.X509;
-using Org.BouncyCastle.Crypto;
-using Org.BouncyCastle.Crypto.Generators;
-using Org.BouncyCastle.Crypto.Prng;
-using Org.BouncyCastle.Math;
-using Org.BouncyCastle.Security;
-using Org.BouncyCastle.X509;
+
 using X509Certificate = System.Security.Cryptography.X509Certificates.X509Certificate;
 
 namespace TlsTest;
