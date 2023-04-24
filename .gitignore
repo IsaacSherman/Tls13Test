@@ -16,3 +16,5 @@
 *.vsidx
 .vs/TlsTest/DesignTimeBuild/.dtbcache.v2
 /TlsTest/TlsServer/bin/Debug/net6.0
+/TlsClientNet6/bin/Debug/net6.0
+/TlsClientNet6/obj
